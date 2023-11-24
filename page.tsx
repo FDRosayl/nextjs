@@ -1,4 +1,4 @@
-import React from "react"
+/*import React from "react"
 import Link from "next/link"
  function Home(){
   return (
@@ -15,4 +15,33 @@ import Link from "next/link"
   
   )
   }
-  export default Home
+  export default <Home></Home*/
+import React from "react"
+import Link from 'next/link'
+import image from 'next/image' 
+function Home() {
+  return (
+    <ul>
+      <li>
+        <Link href="/">Home</Link>
+      </li>
+      <li>
+        <Link href="/about">About Us</Link>
+      </li>
+      <li>
+        <Link href="/blog">Blog Post</Link>
+      </li>
+      <li>
+        <Link href="/contact">Contact Us</Link>
+        </li>
+
+      <li>
+        <Link href="/cource">cource</Link>
+        </li>
+     
+    </ul>
+
+  )
+}
+ 
+export default Home
